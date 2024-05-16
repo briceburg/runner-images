@@ -26,6 +26,7 @@ RUN apt-get update -y \
         # https://github.com/ruby/setup-ruby#using-self-hosted-runners
         libyaml-dev \
         # dockerd dependencies
+        kmod \
         tini \
         iptables
 
