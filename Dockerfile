@@ -18,6 +18,7 @@ RUN apt-get update -y \
         jq \
         unzip \
         zip \
+        zstd \
         # packages in actions-runner-controller/runner-20.04
         build-essential \
         locales \
